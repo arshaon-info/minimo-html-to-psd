@@ -1,0 +1,354 @@
+/*common css start....................................... */
+body{
+	font-family:Playfair Display ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	margin: 0px;
+}
+/*common css end..........................................*/
+
+/*header start............................................*/
+header{
+	padding: 30px 0px;
+	border-bottom: 1px solid #b4ad9e;
+/*	border: 1px solid green;*/
+}
+.container{
+	overflow: hidden;
+	margin: 0px auto;
+	width: 90%;
+/*	border: 1px solid red;*/
+
+}
+.logo{
+	margin-top: 19px;
+	float: left;
+	width: 8%;
+/*	border: 1px solid blue;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width: 65%;
+/*	border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0px 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+/*	transform: 5s;*/
+	border-bottom: 1px solid transparent;
+	transition: linear .35s ;
+
+}
+.menu ul li:first-child  a{
+	margin-right: 123px;
+}
+.menu ul li:nth-child(2) a{
+	margin-right: 103px;
+	margin-left: 0px;
+}
+.menu ul li:nth-child(3) a{
+	margin-right: 95px;
+	margin-left: 0px;
+}
+.menu ul li:last-child a{
+	margin: 0px;
+}
+
+.menu ul li a:hover {
+/*   color: #000000;*/
+     border-bottom: 1px solid #626262;
+}
+/*header end...............................................*/
+
+/*banner start.............................................*/
+.banner{
+    padding: 50px 0px 0px 0px;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end...............................................*/
+
+/*articale start...........................................*/
+.articale{
+	padding: 100px 0px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid blue;*/
+    overflow: hidden;
+}
+.c_light{
+	margin: 0px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.c_title{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 15px 0px 25px;
+}
+.c_text{
+	margin: 0px;
+	line-height: 25px;
+    word-spacing: 2px;
+}
+.a_link{
+	display: inline-block;
+	margin-top: 45px;
+	text-decoration: none;
+	color:#b4ad9e;
+}
+/*articale end.............................................*/
+
+/*feature start............................................*/
+.feature1{
+	padding: 0px 0px 100px;
+
+}
+.f1_img{
+    width: 47.3%;
+/*	border: 1px solid aqua;*/
+	float: left;
+	margin-bottom: 30px;
+}
+.f1_img img{
+	width: 100%;
+}
+.f2_img{
+	width: 47.3%;
+/*	border: 1px solid aqua;*/
+	float: right;
+	margin-right: 0px;
+	margin-bottom: 30px;
+}
+.f2_img img{
+	width: 100%;
+}
+
+.f3_img{
+	width: 47.3%;
+/*	border: 1px solid aqua;*/
+	float: left;
+	margin-top: 30px;
+}
+.f3_img img{
+	width: 100%;
+}
+
+.f4_img{
+	width: 47.3%;
+/*	border: 1px solid aqua;*/
+	float: right;
+	margin-right: 0px;
+	margin-top: 30px;
+}
+.f4_img img{
+	width: 100%;
+}
+
+
+.l_light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin: 0px;
+	padding-top: 32px;
+}
+.l_title{
+	font-family: "Playfair Display",serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #626262;
+	word-spacing: 3px;
+	margin: 30px 0px 41px;
+}
+.l_text{
+	font-family: "Playfair Display",serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #626262;
+	word-spacing: 1px;
+	line-height: 25px;
+	margin: 0px;
+}
+/*feature end..............................................*/
+
+/*big header / style a header start........................*/
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #f0f0f0;
+  padding-bottom: 100px;
+  height: 287px;
+}
+.header h1{
+	font-family: "Playfair Display",serif;
+	font-size: 40px;
+	font-weight:400;
+	color: #333333;
+	padding-top:20px;
+	
+}
+.mail_line{
+	font-family: "Playfair Display",serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+	text-decoration-line: underline;
+    text-decoration-color: black;
+    margin-right: 20px;
+}
+.header form input{
+	margin-top: 100px;
+	padding-left: 20px;
+}
+.input{}
+/*big header / style a header end.........................*/
+
+/*feature 2 start.........................................*/
+.feature2{
+	padding: 100px 0px;
+
+
+}
+.f5_img{
+	width: 47.3%;
+/*	border: 1px solid aqua;*/
+    float: left;
+}
+.f5_img img{
+	width: 100%;
+}
+.f6_img{
+	width: 47.3%;
+	margin-right: 0px;
+/*  border: 1px solid aqua;*/
+    float: right;
+    
+}
+.f6_img img{
+	width: 100%;
+}
+
+
+.f2_light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin: 0px;
+	padding-top: 32px;
+}
+.f2_title{
+	font-family: "Playfair Display",serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #626262;
+	word-spacing: 3px;
+	margin: 30px 0px 41px;
+}
+.f2_text{
+	font-family: "Playfair Display",serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #626262;
+	word-spacing: 1px;
+	line-height: 25px;
+	margin: 0px;
+}
+
+
+/*feature 2 end........................................*/
+
+/*footer start.........................................*/
+footer{
+	background-color: #f0f0f0;
+}
+.pages{}
+
+.pages ul{}
+.pages ul li{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+}
+.pages ul li a{
+	text-decoration: none;
+	margin: 0px 15px;
+}
+.t_text{
+/*  border: 1px solid green;*/
+    margin: 0px 20px;
+    font-family: "Playfair Display",serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+.p_text{
+/*	border: 1px solid darkred;*/
+	margin: 0px 20px;
+	font-family: "Playfair Display",serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.links{}
+.links ul{
+	float: right;
+}
+.links ul li{
+	list-style: none;
+	float: left;
+}
+.links ul li f_light{}
+.f_light{
+/*	border: 1px solid aqua;*/
+    margin: 0px 10px 0px 15px;
+    font-family: "Playfair Display",serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+.links img{
+	width: 18px;
+/*  border: 1px solid darkred;*/
+    overflow: hidden;
+    margin: 3px 15px;
+}
+.links img:last-child{
+	margin-right: 0px;
+}
+.img fb_icon {}
+
+/*footer end............................................*/
